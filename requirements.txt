@@ -1,0 +1,78 @@
+# =============================================================================
+# Real Estate Asset Management Assistant - Unified Requirements
+# =============================================================================
+
+# =============================================================================
+# CORE DEPENDENCIES
+# =============================================================================
+
+# LangGraph and LangChain dependencies
+langgraph>=0.2.0
+langchain-openai>=0.2.0
+langchain-community>=0.3.0
+langchain-core>=0.3.0
+
+# Database and data processing
+duckdb>=1.0.0
+numpy>=1.24.0,<2.0.0
+pandas>=2.0.0,<3.0.0
+pyarrow>=17.0.0
+sqlalchemy>=2.0.0
+
+# OpenAI and environment
+openai>=1.0.0
+python-dotenv>=1.0.0
+
+# =============================================================================
+# BACKEND DEPENDENCIES (FastAPI)
+# =============================================================================
+
+# FastAPI framework
+fastapi>=0.104.0
+uvicorn[standard]>=0.24.0
+pydantic>=2.0.0
+
+# HTTP requests
+requests>=2.31.0
+
+# =============================================================================
+# FRONTEND DEPENDENCIES (Streamlit)
+# =============================================================================
+
+# Streamlit frontend
+streamlit>=1.28.0
+
+# =============================================================================
+# DEVELOPMENT DEPENDENCIES (Optional)
+# =============================================================================
+
+# Testing (optional)
+pytest>=7.0.0
+pytest-asyncio>=0.21.0
+
+# Code quality (optional)
+black>=23.0.0
+flake8>=6.0.0
+mypy>=1.0.0
+
+# Documentation (optional)
+mkdocs>=1.5.0
+mkdocs-material>=9.0.0
+
+# =============================================================================
+# NOTES
+# =============================================================================
+# 
+# To install all dependencies:
+# pip install -r requirements.txt
+#
+# To install only core dependencies (without backend/frontend):
+# pip install langgraph langchain-openai langchain-community langchain-core duckdb numpy pandas pyarrow sqlalchemy openai python-dotenv
+#
+# To install backend only:
+# pip install fastapi uvicorn[standard] pydantic requests
+#
+# To install frontend only:
+# pip install streamlit requests pandas
+#
+# ============================================================================= 
