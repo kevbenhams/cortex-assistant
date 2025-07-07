@@ -51,6 +51,8 @@ The agent uses different temperature settings for different tasks:
 - **Summarizer** (0.3): Balanced for human-readable summaries
 - **Creative** (0.7): More creative for funny responses
 
+[Download and watch the demo video](Demo.mov)
+
 ## 📁 Project Structure
 
 ```
